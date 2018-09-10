@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "dev": "concurrently \"source api/bin/activate && hass --config ./configuration/ \"  \"ng build \" \" nodemon ./bin/www \" ",
+        "dev": "concurrently \"ng build \" \" nodemon ./bin/www \" ",
         "start": "ng build && nodemon ./bin/www",
         "test": "nodemon --exec 'mocha --recursive'"
     },
