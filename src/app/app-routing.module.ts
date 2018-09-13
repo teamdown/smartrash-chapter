@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AccountComponent } from './views/account/account.component';
-import { DevicesComponent } from './views/devices/devices.component';
-import { HistoryComponent } from './views/history/history.component';
+import { StartComponent } from './views/start/start.component';
+import { ProfileComponent } from './views/profile/profile.component';
+import { SettingsComponent } from './views/settings/settings.component';
 
 const routes: Routes = [
-    { path: '', component: DevicesComponent },
-    { path: 'history', component: HistoryComponent },
-    { path: 'account', component: AccountComponent}
+    { path: '', component: StartComponent },
+    { path: 'profile', component: ProfileComponent },
+    { path: 'settings', component: SettingsComponent}
 ];
 
 @NgModule({

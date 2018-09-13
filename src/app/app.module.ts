@@ -17,6 +17,9 @@ import { LightsComponent } from './views/devices/actuators/lights/lights.compone
 import { DoorComponent } from './views/devices/actuators/door/door.component';
 import { AlarmComponent } from './views/devices/actuators/alarm/alarm.component';
 import { SyncComponent } from './views/account/sync/sync.component';
+import { StartComponent } from './views/start/start.component';
+import { ProfileComponent } from './views/profile/profile.component';
+import { SettingsComponent } from './views/settings/settings.component';
 
 
 @NgModule({
@@ -36,6 +39,9 @@ import { SyncComponent } from './views/account/sync/sync.component';
     AlarmComponent,
     AccountComponent,
     SyncComponent,
+    StartComponent,
+    ProfileComponent,
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,18 +8,18 @@ import { Component } from '@angular/core';
 export class SidebarComponent {
   active = '';
 
-  onUpdateMaisonToActive() {
+  onUpdateStartToActive() {
     this.active = '';
     console.log(this.active);
   }
 
-  onUpdateHistoriqueToActive() {
-    this.active = 'historique';
+  onUpdateProfileToActive() {
+    this.active = 'profile';
     console.log(this.active);
   }
 
-  onUpdateAccountToActive() {
-    this.active = 'account';
+  onUpdateSettingsToActive() {
+    this.active = 'settings';
     console.log(this.active);
   }
 }

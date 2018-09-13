@@ -1,0 +1,13 @@
+.main{
+    height: 100vh;
+}
+
+.btn__form__post {
+    border-radius: 50px !important;
+    margin: 0;
+}
+
+.camera__icon{
+    width: 100%;
+    height: 100%;
+}
