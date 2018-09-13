@@ -4,7 +4,6 @@
     "private": true,
     "scripts": {
         "dev": "concurrently \"ng build \" \" nodemon ./bin/www \" ",
-        "start": "ng build && nodemon ./bin/www",
         "test": "nodemon --exec 'mocha --recursive'"
     },
     "dependencies": {
