@@ -43,7 +43,7 @@ app.use('/api', v1);
 //********* Angular Frontend ************/
 app.use(
     "/",
-    express.static(path.join(__dirname, "./dist/smartminds"))
+    express.static(path.join(__dirname, "./dist/smartrash"))
   );
 
 // catch 404

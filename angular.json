@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/smartminds",
+            "outputPath": "dist/smartrash",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,11 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css",
-              "src/assets/vendors/css/vendor.bundle.base.css",
-              "src/assets/css/style.css",
-              "src/assets/css/animate.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },

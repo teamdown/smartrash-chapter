@@ -1,51 +1,27 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AccountComponent } from './views/account/account.component';
-import { HeaderComponent } from './shared/header/header.component';
-import { SidebarComponent } from './shared/header/sidebar/sidebar.component';
-import { NavComponent } from './shared/header/nav/nav.component';
-import { FooterComponent } from './shared/footer/footer.component';
-import { SensorsComponent } from './views/devices/sensors/sensors.component';
-import { WeatherComponent } from './views/devices/sensors/weather/weather.component';
-import { ActuatorsComponent } from './views/devices/actuators/actuators.component';
-import { DevicesComponent } from './views/devices/devices.component';
-import { HistoryComponent } from './views/history/history.component';
-import { LightsComponent } from './views/devices/actuators/lights/lights.component';
-import { DoorComponent } from './views/devices/actuators/door/door.component';
-import { AlarmComponent } from './views/devices/actuators/alarm/alarm.component';
-import { SyncComponent } from './views/account/sync/sync.component';
 import { StartComponent } from './views/start/start.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { SettingsComponent } from './views/settings/settings.component';
+import { SignComponent } from './views/sign/sign.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SidebarComponent,
-    NavComponent,
-    FooterComponent,
-    SensorsComponent,
-    WeatherComponent,
-    ActuatorsComponent,
-    DevicesComponent,
-    HistoryComponent,
-    LightsComponent,
-    DoorComponent,
-    AlarmComponent,
-    AccountComponent,
-    SyncComponent,
     StartComponent,
     ProfileComponent,
     SettingsComponent,
+    SignComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
