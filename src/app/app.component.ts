@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import './../assets/js/script';
 
 @Component({
   selector: 'app-root',

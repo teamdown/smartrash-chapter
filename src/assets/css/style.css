@@ -44,7 +44,7 @@ Last change:  4/september/18
 
 @font-face {
     font-family: HoboStd;
-    src:url('../vendor/fonts/HoboStd.otf');
+    src:url('../fonts/HoboStd.ttf'), url('../fonts/HoboStd.eot');
  }
 /*===============
 ***General Styling 
