@@ -36,6 +36,7 @@
               "src/assets/vendor/css/strip.css",
               "src/assets/vendor/css/themify-icons.css",
               "src/assets/css/style.css",
+              "src/assets/css/color.css",
               "src/assets/css/responsive.css"
             ],
             "scripts": [
