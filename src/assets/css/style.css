@@ -41,6 +41,11 @@ Last change:  4/september/18
 /*=============== Fonts source Muli, Hobostd ===================*/
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,500,700,800');
 
+
+@font-face {
+    font-family: HoboStd;
+    src:url('../vendor/fonts/HoboStd.otf');
+ }
 /*===============
 ***General Styling 
 ===============*/

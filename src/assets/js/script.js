@@ -94,8 +94,8 @@ $('.notification-box > ul li > i.del').on("click", function(){
 
 //progress line for page loader
 	$('body').show();
-	// NProgress.start();
-	// setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 2000);
+	NProgress.start();
+	setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 2000);
 	
 //--- bootstrap tooltip	
 	$(function () {
@@ -155,32 +155,32 @@ if ($.isFunction($.fn.loadMoreResults)) {
 	
 //---- responsive header
 	
-// $(function() {
+$(function() {
 
-// 	//	create the menus
-// 	$('#menu').mmenu();
-// 	$('#shoppingbag').mmenu({
-// 		navbar: {
-// 			title: 'General Setting'
-// 		},
-// 		offCanvas: {
-// 			position: 'right'
-// 		}
-// 	});
+	//	create the menus
+	$('#menu').mmenu();
+	$('#shoppingbag').mmenu({
+		navbar: {
+			title: 'General Setting'
+		},
+		offCanvas: {
+			position: 'right'
+		}
+	});
 
-// 	//	fire the plugin
-// 	$('.mh-head.first').mhead({
-// 		scroll: {
-// 			hide: 200
-// 		}
+	//	fire the plugin
+	$('.mh-head.first').mhead({
+		scroll: {
+			hide: 200
+		}
 		
-// 	});
-// 	$('.mh-head.second').mhead({
-// 		scroll: false
-// 	});
+	});
+	$('.mh-head.second').mhead({
+		scroll: false
+	});
 
 	
-// });		
+});		
 
 //**** Slide Panel Toggle ***//
 	  $("span.main-menu").on("click", function(){
